@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "install": "deno install --allow-read=$HOME/.config/linode-cli/.env --allow-env --allow-run=docker -f -n linode-cli main.ts"
+  }
+}
