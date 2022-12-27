@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "install": "deno install --allow-read=$HOME/.config/anideb/personal-db-ca-certificate.crt --allow-write --allow-env --allow-run=docker -f -n anidb main.ts"
+  }
+}
